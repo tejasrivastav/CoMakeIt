@@ -1,0 +1,52 @@
+.app {
+    width: 100%;
+    height: 100%;
+}
+
+.app > .header {
+    background: rgba(255, 152, 0, 0.74);
+}
+
+.app-container {
+    position: relative;
+    top: -41px;
+    z-index: 2;
+}
+
+.logo {
+    padding: 1.5em 3em;
+    background: #FF9800;
+}
+
+.menu-marker {
+    padding: 1em 3em;
+    background: #FF9800;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.menu .icon {
+    margin: .2em 2em;
+}
+
+.content-title {
+    padding: 1.5em 3em;
+    background: #FF9800;
+}
+
+.transition-speed {
+    -webkit-transition-duration: 500ms;
+    -moz-transition-duration: 500ms;
+    -ms-transition-duration: 500ms;
+    -o-transition-duration: 500ms;
+    transition-duration: 500ms;
+}
+
+.route-not-found {
+    width: 100%;
+    background: #3f51b5;
+}

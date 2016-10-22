@@ -1,0 +1,37 @@
+<md-content class="app anim-fade transition-speed" layout="column">
+    <md-toolbar class="md-tall header">
+      <h2 class="md-toolbar-tools">
+        
+      </h2>
+    </md-toolbar>
+    <div class="app-container" 
+        layout="row"
+        layout-align="space-around start"
+        flex>
+        <div layout="column" flex="20">
+            <md-card>
+                <div class="logo">
+                    Some Logo
+                </div>
+                <div>
+                    <div ui-sref="companyInfo" class="menu">
+                        <span class="icon"><i class="material-icons">account_box</i></span>
+                        <span>Compnay Information</span>
+                    </div>
+                    <div ui-sref="companySettings" class="menu">
+                        <span class="icon"><i class="material-icons">settings</i></span>
+                        <span>Compnay Settings</span>
+                    </div>
+                    <div ui-sref="companyUsers" class="menu">
+                        <span class="icon"><i class="material-icons">people</i></span>
+                        <span>Compnay Users</span>
+                    </div>
+                </div>
+                <div class="menu-marker"></div>
+            </md-card>
+        </div>
+        <div class="app-content" flex>
+            <div ui-view class="anim-in-out anim-fade"></div>
+        </div>
+    </div>
+</md-content>
